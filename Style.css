@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .header{
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/background\ img.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    object-fit: contain;
+} 
+.top_bar{
+    max-width: 100%;
+    margin: 1rem;
+    text-align: right;
+    font-weight: bold;
+
+}
+@media screen and (max-width: 600px) {
+    .top_bar{
+        text-align: center;
+    }
+}
+.sign_In {
+    color: rgba(12, 12, 12, 0.913);
+}
+
+ .manu_bar{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+}
+.logo{
+    width: 200px;
+}
+.logo_img {
+    width: 130px;
+    height: 150;
+    padding: 30px;
+}
+.manu{
+    width: 750px;
+}
+.manu ,ul ,li {
+    display: flex;
+    font-size: 13px;
+    padding: 5px;
+    line-height: 18px;
+}
+.manu_a {
+    margin-right: 10px;
+    text-decoration: none !important;
+    font-weight: bold;
+    color: white;
+    padding-top: 7px;
+}
+.complete_info{
+    width: 320px;
+}
+
+.head_content{
+    width: 490px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.557);
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+}
+.banner_h2{
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    padding: 2px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.banner_p{
+    width: 92%;
+    text-align: left;
+    color: white;
+    padding: 10px;
+    margin-left: 15px;
+    font-size: 15px;
+}
+.head_button{
+           width: 100%;
+           display: flex;
+}
+.head_button1{
+            width: 230px;
+            background-color: red;
+            padding: 8px;
+            margin: auto;
+            border: none;
+            font-size: 12px;
+}
+.head_button2{
+            width: 150px;
+            background-color: black;
+            padding: 8px;
+            margin: auto;
+            margin-left: 0px;
+            margin-right: 60px;
+            font-size: 12px;
+            border: 2px solid white;
+} 
+.btn_a{
+    color: white;
+    list-style: none;
+    text-decoration: none !important;
+}
